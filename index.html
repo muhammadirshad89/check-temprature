@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" type="text/javascript" defer></script>
+    <title>Temperature Summary using Array</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="boottrap.css">
+</head>
+
+<body>
+
+    <div class="panel">
+        <form action="" onSubmit="return false">
+            <div class="container">
+
+                <div class="panel-head">
+                    Temperature Summary
+                </div>
+
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="">Maximum Temperature</label>
+                                <input type="number" id="max" class="form-control" disabled>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="">Minimum Temperature</label>
+                                <input type="number" id="min" class="form-control" disabled>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="">Average Temperature</label>
+                                <input type="number" id="avg" class="form-control" disabled>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="">Above Threshold</label>
+                                <input type="number" id="above" class="form-control" disabled>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="">Below Threshold</label>
+                                <input type="number" id="below" class="form-control" disabled>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col d-flex justify-content-center">
+                            <button type="submit" onClick="check();">Check</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>
